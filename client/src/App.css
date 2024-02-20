@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,153,108,1) 51%, rgba(41,150,107,1) 58%, rgba(47,141,78,1) 75%, rgba(48,140,76,1) 77%, rgba(52,134,60,0.4290091036414566) 90%, rgba(0,212,255,1) 100%);
+}
+.typing-effect {
+    font-family: Arial, sans-serif;
+    color: rgb(104, 0, 0);
+    
+    border-right: 2px solid #000; /* Cursor effect */
+    padding-right: 4px; /* Space for the cursor */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    animation: typing 1s steps(40, end), blink-caret 0.75s infinite; /* Animation */
+  }
+  
+  /* Typing animation */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Blinking cursor animation */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #000;
+    }
+  }
+  .heading{
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+  }
+  .div-login {
+    max-width: 430px; /* Limit the width of the login div */
+    margin: 50px auto; /* Center the login div horizontally and add space from the top */
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for better visual */
+    height: 300px;
+  }
+  
+  .login-heading{
+    text-align: center; /* Center the heading */
+  margin-bottom: 25px; /* Add spacing below the heading */
+  }
+  .form-login{
+   
+   padding: 20px;
+   height: 20px;
+  margin-top: 10px;
+  justify-content: center;
+ 
+  }
+  .input {
+    display: block; /* Make input fields full-width */
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    display: block;
+    padding: 10px 20px;
+    background-color:black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+    
+  
